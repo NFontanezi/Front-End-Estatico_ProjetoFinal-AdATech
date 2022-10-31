@@ -1,0 +1,256 @@
+/*Newsletter*/
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+
+}
+
+.news-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    padding: 15px;
+    width: 100%;
+    height: 250px; /*total 600px - 400 para ffoter*/
+    background-color: rgb(223, 219, 219)
+
+}
+
+
+.news-container h3{
+    font-family: 'Gruppo', cursive;
+    font-style: bold;
+    font-weight: 200rem;
+    font-size: 2rem;
+    padding: 15px;
+    
+}
+
+.form-news{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    grid-gap: 20px;
+   
+}
+
+.form-news input{
+
+    margin: 0 0 20px;
+
+}
+
+.news-input-email{
+    width: 40%;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 5px;   
+
+}
+
+.news-btn-enviar{
+    padding: 10px 5px; 
+    width: 10%;
+    border-radius: 25px;
+    border: 5px;
+    background-color: orangered;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.news-btn-enviar:hover{
+    cursor: pointer;
+    background-color: rgb(196, 100, 66);
+    color: black;
+
+}
+
+/*footer*/
+
+
+.footer-container{
+    
+    padding: 2px;
+    /*margin-bottom: 0px;*/
+    color: white;
+    width: 100%;
+
+}
+
+.footer-redes{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.5px solid rgb(228, 226, 226);
+}
+
+.footer-redes h2{
+    padding-top: 15px;
+    font-style: bold;
+    font-weight: 700;
+
+}
+.redes-btn{
+    display: flex;
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 20px;
+}
+ion-icon{
+    font-size: 32px;
+    color: white;
+  }
+
+  ion-icon:hover{
+    font-size: 32px;
+    color: orangered;
+  }
+
+.footer-home{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.5px solid rgb(228, 226, 226);
+
+}
+
+.footer-home-list{
+    margin-top:5px;
+    display: flex;
+    grid-gap: 100px;
+    text-align: center;
+    font-family: 'Gruppo', cursive;
+
+}
+.footer-home-list ul{
+    font-size: 1.2rem;
+}
+
+.footer-home-list-p a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+}
+
+.footer-home-list-p a:hover{
+    text-decoration: none;
+    color:orangered;
+}
+
+.footer-direitos{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    font-size: 0.7rem;
+    margin-top: 10px;
+    padding-bottom: 130px;
+    text-align: center;
+    border-color: black;
+
+}
+
+/* responsividade*/
+
+@media(max-width: 750px){
+
+    body{
+ 
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    .header-container{
+
+        flex-direction: column;
+
+    }
+
+    .header-nav{
+        flex-direction: column;
+    }
+
+    .nav-header-list{
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .carousel-caption h3{
+
+        font-size: 50px;
+        font-weight: 800;
+        line-height: 100px;
+        margin-bottom: 0px;  
+
+    }
+
+    .beneficios{
+        width: 100%;
+     
+    }
+
+
+    .cards{
+        display: block;
+        width: 100%;
+
+    }
+    .card{
+        display: block;
+        width: 100%;
+
+    }
+
+
+    .card-unidade{
+        display: block;
+        width: 50%;
+    }
+
+    .news-container h3{
+        font-size: 1.5rem;
+    }
+
+    .form-news{
+        display: block;
+        width: 100%;
+    }
+
+    .news-input-email{
+        width: 90%;
+    }
+
+    .news-btn-enviar{
+        width: 90%;
+    }
+
+    .footer-home{
+
+    }
+
+    .footer-home-list{
+
+        display: block;
+        width:100%;
+    }
+
+}
+

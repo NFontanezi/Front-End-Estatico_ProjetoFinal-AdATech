@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logo{
+    margin-left: 15px;
+}
+
+/*menu inicial*/
+
+.header-container{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+    width: 100%;
+    position: fixed;
+    height: 15vh;
+    z-index: 1;
+    
+}
+
+.header-nav{
+
+    color: white;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+   
+}
+
+.nav-header-list{
+    display: flex;
+    gap:3rem;
+ 
+}
+.nav-header-list a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Gruppo', cursive;
+    color: rgb(206, 205, 205);
+    font-weight: BOLD;
+    font-size: 1rem;
+    text-align: top;
+}
+
+.nav-header-list a:hover{
+    text-decoration: none;
+    color:rgb(87, 85, 85);
+
+}
+
+/*
+.nav-header-list a:visited{
+    color:orangered;
+
+}
+
+.nav-header-list a:active{
+    color:orangered;
+
+}*/
+
+/*main */
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* section carrosel*/
+
+.carousel{
+    width: 100%;
+
+
+}
+/* section carrosel2*/
+
+.carousel2 {
+width: 50%;
+height: 50%;
+margin-left: 25%;
+}
+
+.carousel-caption h3{
+    color: orangered;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 125px;
+    font-weight: 800;
+    line-height: 100px;
+    margin-bottom: 25px;   
+
+}
+
+
+

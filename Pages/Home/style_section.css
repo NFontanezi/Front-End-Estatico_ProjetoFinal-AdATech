@@ -1,0 +1,254 @@
+/*section beneficios*/
+
+.beneficios{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width:100%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.beneficios h1{
+    padding-top: 4.5rem;
+    padding-bottom: rem;
+    color: rgb(206, 205, 205);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Days One';
+    text-align: center;
+    background-color: black;
+
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: black;
+    background-color: black;
+    padding: 0;
+    margin-bottom: 5rem;
+    
+}
+
+.card{
+    width: 30%;
+    margin-top:15px;
+    margin-bottom:15px;
+    color: rgb(206, 205, 205);
+    background: black;
+    border-radius: 15px;
+    border:solid, black;
+    background-color: black;
+    
+}
+.card-lista{
+    background-color: black;
+
+}
+
+.card img{
+    width: 100%;
+    padding-top: 1rem;
+    padding-left: 1rem; /*tem jeito automatixo????*/
+    background-color: black;
+}
+
+.card p{
+    font-family: 'Gruppo', cursive;
+    font-weight: 200;
+    font-style: bold;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: black;
+}
+
+.card ul{
+    align-items: stretch;
+    background-color: black;
+}
+
+.card li{
+    background-color: black;
+    align-items: stretch;
+
+}
+
+
+.card-lista p::before{
+    padding-left: 15px;
+    content: " > ";
+    color:orangered;
+    font-style: bold;
+    font-size: large;
+    
+
+}
+.card-lista p::before{
+    padding-left: 15px;
+    content: " + ";
+    color:orangered;
+    font-style: bold;
+    font-size: large;
+    
+
+}
+ .card-lista p{
+    font-family: 'Gruppo', cursive;
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+ }
+
+ /* section unidades*/
+
+ .unidades h1{
+    padding-top: 4.5rem;
+    padding-bottom: rem;
+    color: rgb(206, 205, 205);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Days One';
+    color: black;
+    text-align: center;
+ 
+}
+
+.unidades-container{
+   display: flex;
+   flex-wrap: wrap;
+   margin: 15px;
+   justify-content: space-around;
+
+}
+
+.card-unidade{
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+    height: 200px;
+    position: relative;
+    border-left: 2px;
+    display: flex;
+    flex-direction: column;
+   align-items: left;
+
+
+}
+
+.card-unidade:nth-child(4n){
+margin-right: 0;
+}
+
+.card-unidade:nth-child(4n+1){
+    margin-left: 0;
+    }
+
+.card-unidade h3{
+    padding: 2px;
+    font-family: 'Gruppo', cursive;
+    text-transform:uppercase;
+    font-style: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 15px;
+  
+}
+
+.card-unidade strong{
+    font-family: 'Gruppo', cursive;
+
+}
+.card-unidade h4{
+   
+    font-family: 'Gruppo', cursive;
+    font-size: 1.0rem;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 0px;
+    flex: 1 1 auto;
+    border-left-color: black;
+
+  
+}
+
+.btn-card-unid{
+    
+    margin-top: 2rem;
+    text-decoration: none;
+    font-family: 'Gruppo', cursive;
+    text-transform:uppercase;
+    justify-content: center;
+    width: 100%;
+    border-width: 1.5px;
+    border-radius: 2rem;
+    border-color: orangered;
+    background-color: orangered;
+    color: white;
+    height: 3rem;
+    transition: .5s;
+    border-left-color: black;
+
+}
+
+.btn-card-unid-off{
+
+    margin-top: 2rem;
+    text-decoration: none;
+    font-family: 'Gruppo', cursive;
+    text-transform:uppercase;
+    width: 100%;
+    border-width: 1.5px;
+    border-radius: 2rem;
+    border-color: rgb(100, 97, 97);
+    background-color: rgb(100, 97, 97);
+    color: white;
+    height: 3rem;
+    transition: .5s;
+
+}
+
+.btn-card-unid  a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-card-unid a:hover{
+    text-decoration: none;
+    color: orangered;
+}
+
+
+.btn-card-unid-off  a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-card-unid a:hover{
+    text-decoration: none;
+    color: orangered;
+}
+
+.btn-card-unid-off a:hover{
+    text-decoration: none;
+    color: rgb(100, 97, 97);
+}
+
+.btn-card-unid:hover{
+    background-color: white;
+    cursor: pointer;
+    
+    
+}
+.btn-card-unid-off:hover{
+    background-color: white;
+    cursor: pointer;
+    
+}
+
+
+

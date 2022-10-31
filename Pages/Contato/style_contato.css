@@ -1,0 +1,224 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    background-color: black;
+}
+
+
+.body-login{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0vh;
+    font-family: 'Gruppo', cursive;
+    color: rgb(206, 205, 205);
+    background-color: black;
+    width: 100%;
+
+}
+
+.contato-container{
+    display: flex;
+    margin-top: 15vh;
+    padding:2px;
+    width: 100%;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+
+.contato-loc{
+    padding:2px;
+    padding-top: 15px;
+    width: 30%;
+    margin-left: 05%;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.contato-loc h1{
+    padding: 10px 0;
+    font-weight:bolder
+}
+
+.contato-loc h2{
+    padding: 5px 0;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+.card-container{
+    padding:0px 0;
+    line-height: 120%;    
+    font-size: 1.1rem;
+}
+
+.card{
+    margin: 10px 0;
+    padding:2px;
+}
+
+.card p:nth-child(3n){
+    color:orangered
+}
+
+.contato-form{
+
+    padding:2px;
+    padding-top: 10px;
+    width: 20%;
+    margin-right: 5%;
+    margin-left: 5%;
+
+}
+
+.form{
+    padding:2px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 5px;
+}
+
+.form-field{
+margin-top:50px;
+    
+}
+
+.form-field label{
+    justify-content: baseline;
+    font-size: 1.2rem;
+    padding:0.5px;
+    
+}
+.form-field input, textarea{
+    padding: 10px;
+    padding-left: 0.5px;
+    margin-top: 30px;
+    background-color: rgb(51, 50, 50);
+    border:solid, rgb(206, 205, 205);
+    width:20rem;
+    color: white;  
+    font-family: 'Days One';
+}
+
+.form-field input:focus, textarea:focus{ 
+    color: white;  
+    border:solid, orangered;
+    font-family: 'Days One';  
+
+}
+
+
+.btn-enviar{
+    
+    margin-top: 2rem;
+    text-decoration: none;
+    font-family: 'Gruppo', cursive;
+    text-transform:uppercase;
+    justify-content: center;
+    width: 40%;
+    border-width: 1.5px;
+    border-radius: 2rem;
+    border-color: orangered;
+    background-color: orangered;
+    color: white;
+    font-weight: 700;
+    height: 3rem;
+    transition: .5s;
+    border-left-color: black;
+
+}
+
+.btn-enviar:hover{
+    cursor: pointer;
+    outline: rgb(196, 100, 66);
+    color: black;
+
+}
+
+
+    footer{
+        display: block;
+        margin-bottom: 0;
+        text-align: center;
+        background-color: white;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight:lighter;
+        font-size: 0.7rem;
+        margin-bottom: 15px;
+
+    
+}
+
+@media(max-width: 750px){
+
+    .body-login{
+        display: flex;
+
+ 
+    }
+
+
+    .header-container{
+        flex-direction: column;
+
+
+    }
+
+    .header-nav{
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    
+    .nav-header-list{
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .contato{
+
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 20rem;
+
+    }
+
+    .contato-container{
+        display: block;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .card-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .contato-loc{
+        width: 100%;
+        margin:0;
+
+    }
+
+    .contato-form{
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .btn-enviar{
+        width:100%
+    }
+    
+}
