@@ -181,15 +181,18 @@ ion-icon{
 
         flex-direction: column;
 
+
     }
 
     .header-nav{
         flex-direction: column;
+
     }
 
     .nav-header-list{
         flex-direction: column;
         width: 100%;
+       /* background-color: black;*/
 
     }
 
